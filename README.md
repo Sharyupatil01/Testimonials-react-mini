@@ -1,70 +1,88 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Testimonial React Mini</h1>
 
-## Available Scripts
+📌 Overview
 
-In the project directory, you can run:
+The Testimonial React Mini Application displays student testimonials in a card format with interactive navigation buttons. Users can browse testimonials using left and right shift buttons or get a random testimonial using a dedicated button.
 
-### `npm start`
+📷Screenshots 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0319998e-f559-4bdf-84e4-05228888f84d" width="45%" />
+  <img src="https://github.com/user-attachments/assets/d5f62fd8-a5fd-4195-bffc-ba2348b49e96" width="45%" />
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+🚀 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🎭 Student Testimonials: Displays feedback from students dynamically.
 
-### `npm run build`
+🔄 Left & Right Navigation: Move between testimonials smoothly.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🎲 Random Testimonial: Fetches and displays a random testimonial.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🏗️ React Components: Built using functional components and React Hooks.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🎨 Styled UI: Responsive and user-friendly design.
 
-### `npm run eject`
+🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React.js - Frontend framework
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+CSS (Tailwind/Styled Components) - Styling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+useState Hook - State management for testimonials
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📂 Project Structure
+
+```📁 testimonial-react-mini-app
+│── 📂 src
+│   ├── 📜 App.js          # Main component
+│   ├── 📜 Testimonials.js # Testimonial display component
+│   ├── 📜 data.js         # Sample testimonials data
+│   ├── 📜 Cards.js        # Navigation buttons component
+│   ├── 📜 Card.css        # CSS Styling
+│── 📜 package.json       # Dependencies & Scripts
+│── 📜 README.md          # Project Documentation
+```
+🎮 How to Run the Project
+
+Clone the repository
+```
+git clone https://github.com/Sharyupatil01/Testimonial-react-mini.git
+cd Testimonial-react-mini
+```
+Install dependencies
+```
+npm install
+```
+Run the application
+```
+npm start
+```
+🎥 Demo
+
+
+
+
+https://github.com/user-attachments/assets/06b9c92a-9ede-4211-8c95-00290c3394d0
+
+
+
+📝 Usage Instructions
+
+Left Button ⬅️: Shifts the testimonial to the previous one.
+
+Right Button ➡️: Moves to the next testimonial.
+
+Random Button 🎲: Displays a random testimonial.
+
+
 
 ## Learn More
-
+```
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
