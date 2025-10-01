@@ -1,5 +1,5 @@
 
-<h1>Testimonial React Mini 🧪</h1>
+<h1>Testimonial React Mini </h1>
 
 📌 Overview
 
